@@ -1,0 +1,26 @@
+{
+    "name": "jacek80/bmclient",
+    "description": "BM recruitment task - client side",
+    "require": {
+        "guzzlehttp/guzzle": "^6.3@dev"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jacek Krzyzynski",
+            "email": "jacek.krzyzynski@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "jacek80\\bmclient\\bmclientServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "jacek80\\bmclient\\": "src/"
+        }
+    }    
+}
