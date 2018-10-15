@@ -26,3 +26,4 @@ Following KISS principle, package is limited to the task must have:
 - JWTAuth for tokenized calls
 - CORS for cross-domain calls
 - Controller refactor for more SOLID code
+- Move logic to Model/Repository
